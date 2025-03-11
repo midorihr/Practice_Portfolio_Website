@@ -1,0 +1,80 @@
+/* This is stylesheet.css an external style sheet */
+body {
+  color: #070350;
+}
+header{
+background-color: #070350;
+color: white;
+height:60px;
+line-height:60px;
+}
+nav{
+ width: 250px;
+ float: right;
+}
+nav a{
+text-decoration:none;
+color:white;
+font-size:115%;
+}
+/* Main content below the header and navbar */
+main{
+  padding: 8px;
+  }
+ h1 {
+margin: 0;
+}
+h2 {
+ color: white;
+}
+h3{
+  color: #070350;
+}
+body {
+color: #070350;
+background-color: rgb(170, 180, 183);
+margin: 0;
+}
+/* Wrapper div controls width of entire layout */
+#wrapper {
+  width: 90%;
+  min-width: 580px;
+  max-width: 1400px;
+  background-color: white;
+  border: solid 1px silver;
+  border-radius: 4px;
+  margin: 10px auto;
+}
+h2{
+color: white;
+}
+/* Button CSS */
+
+
+.home-button {
+  text-align: center;
+  width: 60%;
+  background-color: #070350;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s,
+    color 0.15s;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.home-button:hover {
+  width: 60%;
+  background-color:  #0884f1;
+  color: white;
+}
+
+.home-button:active {
+  opacity: 0.7;
+}
